@@ -1,0 +1,36 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #00ffaa;
+}
+
+.login-overlay {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px #00ffaa55;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-overlay input {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #ddd;
+}
+
+.login-overlay button {
+  padding: 10px;
+  background-color: #00ffaa;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}

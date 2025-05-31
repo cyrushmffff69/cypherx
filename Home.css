@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+  font-family: 'Cosmic Sans', sans-serif;
+  background-color: #000;
+  color: #e0ffe0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Neon text glow */
+.neon-glow {
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0;
+}
+
+/* Home container */
+.cypherx-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #000;
+  color: #00ffaa;
+}
+
+/* Title */
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ffaa, 0 0 12px #00ffaa;
+  margin-bottom: 10px;
+}
+
+/* Input container for login/register */
+.input-container,
+.form-container {
+  background-color: #0f0f0f;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 0 20px #00ffaa44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Input fields */
+.input-field,
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: #a5f3a5;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #0f0;
+  box-shadow: 0 0 0 2px rgba(0, 255, 0, 0.3);
+}
+
+/* Checkbox label */
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #00ffaa;
+  gap: 8px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-top: 3px;
+  accent-color: #00ffaa;
+}
+
+/* Buttons */
+.primary-btn,
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00ffaa;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover,
+button:hover {
+  background-color: #00ddaa;
+}
+
+/* Link text */
+.link,
+.login-link a {
+  color: #00aaff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #90ee90;
+}
+
+/* Additional elements */
+.sign-up-text {
+  margin-top: 10px;
+}
+
+/* Centered description */
+.home-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Modal form styling */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+}
+
+/* Footer section */
+.footer {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+  color: #e0ffe0;
+}

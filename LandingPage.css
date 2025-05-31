@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+  font-family: 'Cosmic Sans', sans-serif;
+  background-color: #000;
+  color: #e0ffe0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Neon text glow */
+.neon-glow {
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0;
+}
+
+/* Landing page container */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #000;
+  color: #00ffaa;
+  padding: 0;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Title */
+.landing-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ffaa, 0 0 12px #00ffaa;
+  margin-bottom: 10px;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom right, #0f0f1e, #1e1e2e);
+  width: 100%;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  margin-top: 3rem;
+  width: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Button styles */
+.button-style {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background: #00ffe7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffe7;
+  transition: background 0.3s;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button-style:hover {
+  background-color: #00ddaa;
+}
+
+/* Feature card styles */
+.feature-card-style {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 231, 0.2);
+  transition: transform 0.3s;
+}
+
+.feature-card-style:hover {
+  transform: scale(1.05);
+}
+
+/* Social icon styles */
+.social-icons {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  color: #00aaff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
